@@ -1,0 +1,65 @@
+[
+	{
+		"id" : 1,
+		"image" : "kebumen",
+		"title" : "Kebumen, au coeur de l'Indonésie",
+		"description" : "",
+		"sous_continent" : "Asie du Sud Est",
+		"country" : "Indonésie",
+		"continent" : "Asie"
+	},
+	{
+		"id" : 2,
+		"image" : "san-francisco",
+		"title" : "La baie de San Franciso",
+		"description" : "Découvrez son pont rouge flamboyant, ses tramways, une baie étincelante et des rues bordées d'élegantes maisons victoriennes.",
+		"sous_continent" : "Amérique du Nord",
+		"country" : "Etats-Unis",
+		"continent" : "Amérique"
+	},
+	{
+		"id" : 3,
+		"image" : "rio-de-janeiro",
+		"title" : "Rio de Janeiro, la perle du Brésil",
+		"description" : "Découvrez les plages de Copacabana et d'Ipanema, la statue du Christ Rédempteur de 38 mètres de haut située au sommet du Corcovado",
+		"sous_continent" : "Amérique du Sud",
+		"country" : "Brésil",
+		"continent" : "Amérique"
+	},
+	{
+		"id" : 4,
+		"image" : "kenya",
+		"title" : "Le parc national d'Amboseli, au Kenya",
+		"description" : "A 220 km de Mombasa et 240 de Nairobi, le parc Amboseli est à mi-chemin des deux plus grandes villes du Kenya",
+		"sous_continent" : "Afrique de l'Est",
+		"country" : "Kenya",
+		"continent" : "Afrique"
+	},
+	{
+		"id" : 5,
+		"image" : "mont-fuji",
+		"title" : "Fujiyoshida, au pied du Mont Fuji",
+		"description" : "Fujiyoshida est une ville située dans la préfecture de Yamanashi, dans la région des Cing Lacs du Mont Fuji au centre de l'île de Honshu au Japon",
+		"sous_continent" : "Asie de l'Est",
+		"country" : "Japon",
+		"continent" : "Asie"
+	},
+	{
+		"id" : 6,
+		"image" : "prague",
+		"title" : "Prague, visite en amoureux ou en famille",
+		"description" : "Une des plus belles capitales d'Europe à (re)découvrir!",
+		"sous_continent" : "Europe de l'Est",
+		"country" : "République Tchèque",
+		"continent" : "Europe"
+	},
+	{
+		"id" : 7,
+		"image" : "londres",
+		"title" : "Weekend à Londres",
+		"description" : "Passer un week-end à Londres est une expérience inoubliable.",
+		"sous_continent" : "Europe du Nord-Est",
+		"country" : "Angleterre",
+		"continent" : "Europe"
+	}
+]
