@@ -27,6 +27,10 @@ header {
     padding-right: 2rem;
     padding-left: 2rem;
 }
+.account-online:hover {
+  background-color: #c6c6c6;
+  
+}
 
 .logo {
     width: 7.032rem;
@@ -48,6 +52,9 @@ header {
     margin-right: 1rem;
     display: flex;
 }
+.continent-u:hover {
+color: #ff6161;
+} 
 
 /* box  */
 .box {
@@ -327,8 +334,8 @@ footer {
 }
 /* travel  */
 .travel {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   padding-right: 3rem;
   padding-left:3rem ;
   font-size: 0.75rem;
@@ -381,4 +388,6 @@ footer {
   font-size: 1.5rem ;
   font-weight: bold;
 }
-
+.hover:hover {
+  color: #ff6161;
+}
