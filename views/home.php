@@ -7,7 +7,15 @@ $obj = json_decode($json, true);
 
 <body>
     <?php require_once '../elements/header.php' ?>
-
+    <div class="test">
+        <div class="reseaux">
+            <img src="../assets/svg/at.svg">
+            <img src="../assets/svg/facebook.svg">
+            <img src="../assets/svg/instagram.svg">
+            <img src="../assets/svg/pinterest.svg">
+            <img src="../assets/svg/twitter.svg">
+        </div>
+    </div>
     <div class="box">
 
 
