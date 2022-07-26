@@ -282,3 +282,71 @@ header {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+/* footer  */
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 5rem;
+  
+}
+/* travel  */
+.travel {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+  padding-left:3rem ;
+  font-size: 0.75rem;
+  text-align: center;
+  background-color: #313131;
+  font-family: "Montserrat", sans-serif;
+  align-self: center;
+  
+}
+/* naviguer  */
+.naviguer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  width: 17.25rem;
+  height: 14.25rem;
+}
+.naviguer-title {
+  font-size: 1.5rem ;
+  text-transform: none;
+}
+/* a propos  */
+.a-propos {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+}
+.a-propos-title {
+  font-size: 1.5rem ;
+  text-transform: none;
+}
+/* blog  */
+.blog {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+}
+.blog-title {
+  font-size: 1.5rem ;
+  font-weight: bold;
+}
+
