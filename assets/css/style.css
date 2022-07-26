@@ -28,6 +28,11 @@ header {
     padding-left: 2rem;
 }
 
+.account-online:hover {
+    background-color: #c6c6c6;
+
+}
+
 .logo {
     width: 7.032rem;
     height: 5.15rem;
@@ -47,6 +52,10 @@ header {
     margin-left: 1rem;
     margin-right: 1rem;
     display: flex;
+}
+
+.continent-u:hover {
+    color: #ff6161;
 }
 
 /* box  */
@@ -85,7 +94,7 @@ header {
         flex-direction: column;
         justify-content: space-between;
         box-shadow: 5px 5px 5px #9999991e;
-    }  
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -419,4 +428,103 @@ header {
     .account-online {
         display: none;
     }
+}
+
+
+
+/* footer  */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 5rem;
+
+}
+
+/* travel  */
+.travel {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-size: 0.75rem;
+    text-align: center;
+    background-color: #313131;
+    font-family: "Montserrat", sans-serif;
+    align-self: center;
+
+}
+
+/* naviguer  */
+.naviguer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-family: "Montserrat", sans-serif;
+    width: 17.25rem;
+    height: 14.25rem;
+}
+
+.naviguer-title {
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+/* a propos  */
+.a-propos {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.a-propos-title {
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+/* blog  */
+.blog {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hover:hover {
+    color: #ff6161;
+}
+
+.reseaux {
+    width: 2.5rem;
+    height: 12.75rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 5px #9999991e;
+
+}
+
+.test {
+    display: flex;
+    justify-content: flex-end;
+
+
 }
