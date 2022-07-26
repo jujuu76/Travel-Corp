@@ -1,53 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;700&family=Montserrat&display=swap");
+body {
+  background-color: #f0f0f0;
+}
 /* header  */
 header {
-    background-color: black;
+  background-color: black;
 }
 .nav {
-    color: #FFFFFF;
-   display: flex;
-   justify-content: space-around;
-    align-items: center; 
-    font-size: 20;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
-    
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .account-online {
-    width: 16px;
-    height: 16px;
-    background-color: #FF6161;
-padding-top:50px;
-padding-bottom:50px;
-padding-right:32px;
-padding-left:32px;
-    
+  width: 1rem;
+  height: 1rem;
+  background-color: #ff6161;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .logo {
-    width: 82.4;
-    height: 112.51;
-    display: flex;
-    align-self: center;
-    
+  width: 7.032rem;
+  height: 5.15rem;
+  display: flex;
+  align-self: center;
 }
 .continent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 .continent-u {
-    
-    margin-left: 1rem;
-    margin-right: 1rem;
-    display: flex;
-    
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
 }
 
 /* box  */
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  margin-top: 2rem;
+}
+/* kebumen */
+.kebumen {
+  background-color: #ffffff; 
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  width: 36.375rem;
+  height: 26.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px #9999991e;
+}
+.kebumen-title {
+  font-weight: bold;
+  padding-left: 1rem;
+  margin: 0;
+}
+.kebumen-pays {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
 
+@media screen and (min-width: 600px) {
+  .kebumen-img {
+    width: 582px;
+    height: 300px;
+  }
+}
 
-    
-  
+@media screen and (max-width: 600px) {
+  .kebumen-img {
+    width: 276px;
+    height: 155px;
+  }
+}
+@media screen and (min-width:600px) {
+  .kebumen-title {
+  font-size: 1.875rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .kebumen-title {
+      font-size: 1.125rem;
+  }
+}
+
+/* San Francisco  */
+.san-francisco {
+  background-color: #ffffff;
+  width: 17.25rem;
+  height: 26.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px #9999991e;
+}
+.san-francisco-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.san-francisco-pays {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.san-francisco-text {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* Rio  */
+.janeiro {
+  background-color: #ffffff;
+  width: 17.25rem;
+  height: 26.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  box-shadow: 5px 5px 5px #9999991e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.janeiro-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.janeiro-pays {
+  color: #999999;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.janeiro-text {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Kenya  */
+.kenya {
+  background-color: #ffffff;
+  width: 17.25rem;
+  height: 26.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  box-shadow: 5px 5px 5px #9999991e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.kenya-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.kenya-pays {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.kenya-text {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* Mont Fuji  */
+.fuji {
+  background-color: #ffffff;
+  width: 17.25rem;
+  height: 26.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  box-shadow: 5px 5px 5px #9999991e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fuji-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.fuji-pays {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.fuji-text {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* Prague  */
+.prague {
+  background-color: #ffffff;
+  width: 17.25rem;
+  height: 26.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  box-shadow: 5px 5px 5px #9999991e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prague-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.prague-pays {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.prague-text {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* Londres  */
+.londres {
+  background-color: #ffffff;
+  width: 17.25rem;
+  height: 26.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  box-shadow: 5px 5px 5px #9999991e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.londres-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.londres-pays {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.londres-text {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
