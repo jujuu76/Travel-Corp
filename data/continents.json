@@ -1,0 +1,22 @@
+[
+	{
+		"c_id" : 1,
+		"continent" : "Europe"
+	},
+	{
+		"c_id" : 2,
+		"continent" : "Asie"
+	},
+	{
+		"c_id" : 3,
+		"continent" : "Océanie"
+	},
+	{
+		"c_id" : 4,
+		"continent" : "Afrique"
+	},
+	{
+		"c_id" : 5,
+		"continent" : "Amérique"
+	}
+]
