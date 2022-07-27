@@ -402,9 +402,13 @@ footer {
   box-shadow: 5px 5px 5px #9999991e;
   
 }
+.icone:hover {
+    background-color: #c6c6c6;
+    
+}
 .test {
   display: flex;
   justify-content: flex-end;
- 
+ align-content: center;
   
 }
